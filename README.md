@@ -1,29 +1,57 @@
 # Bibliothèque Mathématique Simple
 
-Une petite bibliothèque C qui implémente deux fonctions mathématiques : factorielle et puissance.
+Une petite bibliothèque C qui implémente plusieurs fonctions mathématiques et utilitaires.
 
-## Description
+## Fonctions
 
-Ce projet contient :
-- Une fonction de calcul de factorielle
-- Une fonction de calcul de puissance
+### 1. `fact(unsigned int value)`
+- **Description**: Calcule la factorielle d'un nombre donné.
+- **Paramètres**: 
+  - `value`: Un entier non signé.
+- **Retourne**: La factorielle de `value`.
 
-## Utilisation
+### 2. `power(int value, unsigned int pow)`
+- **Description**: Éleve un nombre à une puissance spécifiée.
+- **Paramètres**: 
+  - `value`: Un entier.
+  - `pow`: Un entier non signé représentant la puissance.
+- **Retourne**: Le résultat de `value` élevé à la puissance `pow`.
 
-```c
-// Exemple d'utilisation
-int resultat = power(2, 3);  // Calcule 2³
-int factorielle = fact(6);   // Calcule 6!
-```
+### 3. `bonjour()`
+- **Description**: Affiche "Bonjour".
+- **Paramètres**: Aucun.
+- **Retourne**: Aucun.
 
-## Fichiers
+### 4. `inversion(int value)`
+- **Description**: Inverse un nombre entier à trois chiffres.
+- **Paramètres**: 
+  - `value`: Un entier à trois chiffres.
+- **Retourne**: L'entier inversé.
 
-- `Main.c` - Programme principal avec exemples
-- `SampleLib.c` - Implémentation des fonctions
-- `SampleLib.h` - Déclarations des fonctions
+### 5. `product(float val1, float val2)`
+- **Description**: Calcule le produit de deux nombres réels.
+- **Paramètres**: 
+  - `val1`: Un flottant.
+  - `val2`: Un flottant.
+- **Retourne**: Le produit de `val1` et `val2`.
 
-## Compilation
+### 6. `parite(int value)`
+- **Description**: Vérifie si un nombre est pair ou impair.
+- **Paramètres**: 
+  - `value`: Un entier.
+- **Retourne**: 1 si `value` est pair, 0 sinon.
 
-```bash
-gcc Main.c -o programme
-```
+### 7. `compare(int value1, int value2)`
+- **Description**: Compare deux entiers et affiche le résultat.
+- **Paramètres**: 
+  - `value1`: Un entier.
+  - `value2`: Un entier.
+- **Retourne**: Aucun.
+
+### 8. `croissant(int value1, int value2, int value3)`
+- **Description**: Lit trois entiers et les affiche dans un ordre croissant.
+- **Paramètres**: 
+  - `value1`: Un entier.
+  - `value2`: Un entier.
+  - `value3`: Un entier.
+- **Retourne**: Aucun.
