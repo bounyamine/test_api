@@ -50,7 +50,7 @@ void compare(int value1, int value2){
 }
 
 // Exercice 6: Definition d'une procedure qui lit trois entiers pour les afficher en suite dans un ordre croissant
-void croissant(a, b, c) {
+void croissant(int a, int b, int c) {
     int min = (a < b) ? a : b;
     min = (min < c) ? min : c;
 
