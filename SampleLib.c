@@ -60,3 +60,15 @@ void croissant(int a, int b, int c) {
 
     printf("Par ordre croissant : [ %d, %d, %d ]", min, mid, max);
 }
+
+// Exercice 16: Definition d'une procedure qui permet de permuter le contenu de deux variable de type char en utilisant les pointeurs
+void permuter(char *a, char *b) {
+    char temp = *a;
+    *a = *b;
+    *b = temp;
+}
+
+// Exercice 17: Definition d'une fonction qui calcule la somme de deux nombres entiers
+int somme(int value1, int value2) {
+	return value1 + value2;
+}

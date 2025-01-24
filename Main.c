@@ -11,7 +11,7 @@ int main(void) {
     printf("\n-----------------------Travaux Pratiques------------------------------\n\n");
     int exercice;
     while(1) {
-        printf("1. Exercice 1\n2. Exercice 2\n3. Exercice 3\n4. Exercice 4\n5. Exercice 5\n6. Exercice 6\n0. Sortir\n\n Votre choix : ");
+        printf("1. Exercice 1\n2. Exercice 2\n3. Exercice 3\n4. Exercice 4\n5. Exercice 5\n6. Exercice 6\n16. Exercice 16\n17. Exercice 17\n0. Sortir\n\nVotre choix : ");
         scanf("%d", &exercice);
         switch(exercice) {
             case 1:// Exercice 1
@@ -76,6 +76,25 @@ int main(void) {
                 printf("c = ");
                 scanf("%d", &k);
                 croissant(i, j, k);
+                printf("\n--------------------------------------------------------------\n\n");
+                break;
+			case 16: // Exercice 16
+                printf("--------------------------------------------------------------");
+                printf("\nExercice 16: Definition d'une procedure qui permet de permuter le contenu de deux variable de type char\n");
+                char m = 'A', n = 'B';
+				printf("\nAvant la permutation : \nm = %c et n = %c", m, n);
+                permuter(&m, &n);
+				printf("\nApres la permutation : \nm = %c et n = %c", m, n);
+                printf("\n--------------------------------------------------------------\n\n");
+                break;
+			case 17: // Exercice 17
+                printf("--------------------------------------------------------------");
+                printf("\nExercice 17: Definition d'une fonction qui calcule la somme de deux nombres entiers\n");
+                printf("Entrer deux nombres entiers :\nx = ");
+                scanf("%d", &x);
+                printf("y = ");
+                scanf("%d", &y);
+				printf("%d + %d = %d", x, y, somme(x, y));
                 printf("\n--------------------------------------------------------------\n\n");
                 break;
             default:

@@ -55,3 +55,17 @@ Une petite bibliothèque C qui implémente plusieurs fonctions mathématiques et
   - `value2`: Un entier.
   - `value3`: Un entier.
 - **Retourne**: Aucun.
+
+### 9. `permuter(char *a, char *b)`
+- **Description**: Lit deux pointeurs de deux caractères et permute le contenu de ces deux variables.
+- **Paramètres**:
+    - `*a`: Un pointeur vers un caractère
+    - `*b`: Un pointeur vers un caractère
+- **Retourne**: Aucun
+
+### 10. `somme(int value1, int value2)`
+- **Description**: Calcule la somme de deux entiers.
+- **Paramètres**:
+    - `value1`: Un entier
+    - `value2`: Un entier
+- **Retourne**: Aucun
